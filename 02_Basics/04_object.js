@@ -20,4 +20,11 @@ let person2 = {
 // merge two object
 // let obj = Object.assign({}, person, person2);
 const obj = { ...person, ...person2 }; // spread operator
-console.log(obj);
+// console.log(obj);
+
+/// Object destructuring
+
+const { age: myAge } = person;
+console.log(myAge);
+
+console.log(person?.age); // firstly it checks the is exist or not
