@@ -34,11 +34,13 @@ list.forEach((e)=>{e.setAttribute("class", "ul")})
 
 
 
-
+//it return NodeCollections
 const list = document.querySelectorAll('li')
 undefined
 list.forEach((e)=>{e.setAttribute("class", "ul")})
 undefined
+
+//  it return HtmlCollection
 const li = document.getElementsByClassName('ul');
 undefined
 li
