@@ -29,3 +29,16 @@ undefined
 list.for
 undefined
 list.forEach((e)=>{e.setAttribute("class", "ul")})
+
+
+
+
+
+
+const list = document.querySelectorAll('li')
+undefined
+list.forEach((e)=>{e.setAttribute("class", "ul")})
+undefined
+const li = document.getElementsByClassName('ul');
+undefined
+li
